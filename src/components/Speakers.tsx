@@ -5,7 +5,9 @@ export default function Speakers() {
     <section className="bg-blue-700 py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-orange-400 mb-12">
+        <h2 className="text-3xl font-bold text-orange-400 mb-12" style={{
+              fontFamily: "Satoshi Variable",
+              fontStyle: "normal",}}>
           Featured Speakers
         </h2>
 
