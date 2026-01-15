@@ -34,7 +34,7 @@ const exploreItems = [
 export default function Explore() {
   return (
     <section className="bg-white py-20" >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6" style={{backgroundColor:"#D2E1FF"}}>
         <h2 className="text-3xl font-bold text-orange-500 mb-2">
           What We’ll Explore
         </h2>
