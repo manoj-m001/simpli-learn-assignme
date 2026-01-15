@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Speakers() {
   return (
     <section className="bg-blue-700 py-20">
@@ -9,9 +11,11 @@ export default function Speakers() {
 
         {/* Speaker 1 */}
         <div className="flex flex-col md:flex-row gap-8 mb-14">
-          <img
-            src="/public/speakers/rob.png"
+          <Image
+            src="/speakers/rob.png"
             alt="Rob Lauber"
+            width={192}
+            height={192}
             className="w-48 h-48 rounded-lg object-cover"
           />
 
@@ -32,10 +36,12 @@ export default function Speakers() {
 
         {/* Speaker 2 */}
         <div className="flex flex-col md:flex-row gap-8 mb-14">
-          <img
-            src="speakers/krishna.png"
+          <Image
+            src="/speakers/krishna.png"
             alt="Krishna Kumar"
             className="w-48 h-48 rounded-lg object-cover"
+            width={192}
+            height={192}
           />
 
           <div >
@@ -56,11 +62,13 @@ export default function Speakers() {
         </div>
 
         {/* Speaker 3 */}
-        <div className="flex flex-col md:flex-row gap-8 mb-16">
-          <img
-            src="speakers/sudip.png"
+        <div className="flex flex-col md:flex-row gap-8 mb-14">
+          <Image
+            src="/speakers/sudip.png"
             alt="Sudipto Mitra"
             className="w-48 h-48 rounded-lg object-cover"
+            height={192}
+            width={192}
           />
 
           <div>
