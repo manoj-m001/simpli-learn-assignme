@@ -30,10 +30,8 @@ export default function RsvpForm({ className = "" }) {
 
       <button
         type="submit"
-        className="bg-orange-400 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-md transition-colors duration-200"
+        className="bg-orange-400 hover:bg-orange-500 text-white font-semibold px-8 py-3 rounded-md"
         style={{ backgroundColor: "#F5AB40" }}
-        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#D48A2F"}
-        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#F5AB40"}
       >
         RSVP Now
       </button>
