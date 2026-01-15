@@ -33,7 +33,7 @@ const exploreItems = [
 
 export default function Explore() {
   return (
-    <section className="bg-blue-200 py-20" >
+    <section className="bg-blue-100 py-20" >
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-orange-500 mb-2">
           What We’ll Explore
