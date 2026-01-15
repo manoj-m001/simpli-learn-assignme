@@ -49,13 +49,15 @@ export default function Insights() {
             ))}
           </ul>
 
-<RsvpForm className="flex flex-col sm:flex-row gap-4 mb-10 max-w-2xl mt-10" />
-        </div>
+<div className="order-2 md:order-1">
+  ...
+  <RsvpForm className="flex flex-col sm:flex-row gap-4 mb-10 max-w-2xl mt-10" />
+</div>        </div>
          
         {/* RIGHT IMAGE */}
-        <div className="flex justify-center md:justify-end">
+        <div className=" order-1 md:order-2 flex justify-center md:justify-end">
           <Image
-            src="/chess.png"
+            src="/chess.png" 
             alt="Chess strategy"
             width={420}
             height={420}
