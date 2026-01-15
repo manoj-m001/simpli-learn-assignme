@@ -5,7 +5,7 @@ export default function HeroContent() {
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Email Form */}
-        <RsvpForm className="font-sansflex flex-col sm:flex-row gap-4 mb-10 max-w-2xl" />
+        <RsvpForm className=" lex flex-col sm:flex-row gap-4 mb-10 max-w-2xl" />
         {/* Paragraphs */}
         <p className="mb-6 text-2xl"style={{color: "#000000"}}>
           AI is accelerating change across every operational layer. Roles are
@@ -14,7 +14,7 @@ export default function HeroContent() {
           agents.
         </p>
 
-        <p className=" font-sans mb-10 text-2xl"  style={{
+        <p className=" mb-10 text-2xl"  style={{
             color: "#000000"
         }}>
           But even the most advanced enterprises are asking the same question:
@@ -23,7 +23,7 @@ export default function HeroContent() {
         </p>
 
         {/* Bold Question */}
-        <h3 className="font-sans mb-10 text-4xl font-extrabold" style={{
+        <h3 className=" mb-10 text-4xl font-extrabold" style={{
             color: "#000000",
             textAlign: "center",
         }}>
@@ -33,7 +33,7 @@ export default function HeroContent() {
         </h3>
 
         {/* Closing */}
-        <p className="font-sans mb-10 text-2xl" style={{
+        <p className="mb-10 text-2xl" style={{
             color: "#000000",
         }} >
           This invite-only roundtable gathers CHROs, CLOs, and enterprise
