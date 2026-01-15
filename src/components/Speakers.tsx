@@ -10,7 +10,7 @@ export default function Speakers() {
         {/* Speaker 1 */}
         <div className="flex flex-col md:flex-row gap-8 mb-14">
           <img
-            src="speakers/rob.png"
+            src="/public/speakers/rob.png"
             alt="Rob Lauber"
             className="w-48 h-48 rounded-lg object-cover"
           />
