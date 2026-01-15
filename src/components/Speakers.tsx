@@ -12,11 +12,11 @@ export default function Speakers() {
         {/* Speaker 1 */}
         <div className="flex flex-col md:flex-row gap-8 mb-14">
           <Image
-            src="/speakers/rob.png"
+            src="/speakers/Rob.png"
             alt="Rob Lauber"
             width={192}
             height={192}
-            className="w-48 h-48 rounded-lg object-cover"
+            className="rounded-lg object-cover"
           />
 
           <div>
@@ -37,9 +37,9 @@ export default function Speakers() {
         {/* Speaker 2 */}
         <div className="flex flex-col md:flex-row gap-8 mb-14">
           <Image
-            src="/speakers/krishna.png"
+            src="/speakers/Krishna.png"
             alt="Krishna Kumar"
-            className="w-48 h-48 rounded-lg object-cover"
+            className="rounded-lg object-cover"
             width={192}
             height={192}
           />
@@ -64,9 +64,9 @@ export default function Speakers() {
         {/* Speaker 3 */}
         <div className="flex flex-col md:flex-row gap-8 mb-14">
           <Image
-            src="/speakers/sudip.png"
+            src="/speakers/Sudip.png"
             alt="Sudipto Mitra"
-            className="w-48 h-48 rounded-lg object-cover"
+            className="rounded-lg object-cover"
             height={192}
             width={192}
           />
