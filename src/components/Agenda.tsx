@@ -11,10 +11,10 @@ export default function Agenda() {
         </h2>
 
         {/* Cards */}
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className=" font-sans grid gap-8 md:grid-cols-3">
           {/* Card 1 */}
           <div
-            className="bg-white p-8 shadow-md"
+            className=" bg-white p-8 shadow-md"
             style={{
               boxShadow: "0px 4px 34px rgba(0, 0, 0, 0.15)",
               borderRadius: "8px",
