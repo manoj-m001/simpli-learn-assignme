@@ -21,20 +21,20 @@ export default function Agenda() {
             }}
           >
             <h3
-              className="text-xl font-semibold mb-4"
+              className="font-sans text-xl font-semibold mb-4"
               style={{ color: "#1D4DF4" }}
             >
               Welcome & Opening
             </h3>
 
             <p
-              className="font-semibold mb-4"
+              className="font-sans font-semibold mb-4"
               style={{ fontStyle: "Normal", color: "black" }}
             >
               Sudipto Mitra, CRO Simplilearn
             </p>
 
-            <p className="text-gray-800 leading-relaxed">
+            <p className="font-sans text-gray-800 leading-relaxed">
               Why capability-building is now a board-level issue and what's
               changing in the workforce landscape.
             </p>
@@ -48,15 +48,14 @@ export default function Agenda() {
               borderRadius: "8px",
             }}
           >
-            <h3 className="text-xl font-semibold text-blue-600 mb-4">
+            <h3 className="font-sans text-xl font-semibold text-blue-600 mb-4">
               Keynote: <br />
               What Enterprise Leaders Are Seeing on the Ground
             </h3>
 
             <p
-              className="font-semibold mb-4"
+              className="font-sans font-semibold mb-4"
               style={{
-                fontStyle: "Normal",
                 color: "black",
                 lineHeight: "24px",
               }}
@@ -64,7 +63,7 @@ export default function Agenda() {
               Rob Lauber, Former CLO McDonald's
             </p>
 
-            <p className="text-gray-800 leading-relaxed">
+            <p className="font-sans text-gray-800 leading-relaxed">
               A grounded view of how AI and AI agents are reshaping work,
               workflows, and leadership across industries.
             </p>
@@ -72,18 +71,18 @@ export default function Agenda() {
 
           {/* Card 3 */}
           <div
-            className="bg-white p-8 shadow-md"
+            className="font-sans bg-white p-8 shadow-md"
             style={{
               boxShadow: "0px 4px 34px rgba(0, 0, 0, 0.15)",
               borderRadius: "8px",
             }}
           >
-            <h3 className="text-xl font-semibold text-blue-600 mb-4">
+            <h3 className="font-sans text-xl font-semibold text-blue-600 mb-4">
               Lunch & Executive Conversation
             </h3>
 
             <p
-              className="font-semibold mb-4"
+              className="font-sans font-semibold mb-4"
               style={{
                 color: "black",
                 lineHeight: "24px",
@@ -92,7 +91,7 @@ export default function Agenda() {
               Industry Experts Invited
             </p>
 
-            <p className="text-gray-800 leading-relaxed">
+            <p className="font-sans text-gray-800 leading-relaxed">
               What large enterprise talent ecosystems are learning about
               capability-building at scale.
             </p>

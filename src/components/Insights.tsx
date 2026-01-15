@@ -4,15 +4,13 @@ import RsvpForm from "./Rsvp";
 export default function Insights() {
   return (
     <section className="bg-white py-20">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
+      <div className="font-sans max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
         {/* LEFT CONTENT */}
         <div>
           <h2
-            className="mb-6"
+            className="font-sans mb-6"
             style={{
-              fontFamily: "Satoshi Variable",
               color: "#F5AB40",
-              fontStyle: "normal",
               fontWeight: 900,
               fontSize: "40px",
               lineHeight: "54px",
@@ -23,9 +21,8 @@ export default function Insights() {
           </h2>
 
           <p
-            className="mb-6"
+            className="font-sans mb-6"
             style={{
-              fontStyle: "normal",
               fontWeight: "500",
               fontSize: "25px",
               lineHeight: "34px",
@@ -43,8 +40,8 @@ export default function Insights() {
               "Peer-validated perspectives from leaders running workforce, talent, and transformation ecosystems at scale.",
               "Actionable insights you can take straight into your next exec meeting.",
             ].map((item, idx) => (
-              <li key={idx} className="flex gap-4">
-                <p className="text-gray-800 underline-offset-4">{item}</p>
+              <li key={idx} className="font-sans flex gap-4">
+                <p className="font-sans text-gray-800 underline-offset-4">{item}</p>
               </li>
             ))}
           </ul>

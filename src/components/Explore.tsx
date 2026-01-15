@@ -35,11 +35,11 @@ export default function Explore() {
   return (
     <section className="bg-blue-100 py-20" >
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-orange-500 mb-2">
+        <h2 className="font-sans text-3xl font-bold text-orange-500 mb-2">
           What We’ll Explore
         </h2>
 
-        <p className="text-gray-700 mb-10">
+        <p className="font-sans text-gray-700 mb-10">
           The critical shifts every enterprise must plan for:
         </p>
 
@@ -62,12 +62,12 @@ export default function Explore() {
               </div>
 
               {/* Title */}
-              <h3 className="text-black font-semibold mb-2">
+              <h3 className="font-sans text-black font-semibold mb-2">
                 {item.title}
               </h3>
 
               {/* Description */}
-              <p className="text-black leading-relaxed">
+              <p className="font-sans text-black leading-relaxed">
                 {item.description[0]}
                 <br />
                 {item.description[1]}
