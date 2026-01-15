@@ -2,12 +2,13 @@ import RsvpForm from "./Rsvp";
 export default function HeroContent() {
   return (
     <section className="bg-white py-20">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6" style={{fontFamily: "Satoshi Variable",
+              fontStyle: "normal"}}>
         
         {/* Email Form */}
         <RsvpForm className="flex flex-col sm:flex-row gap-4 mb-10 max-w-2xl" />
         {/* Paragraphs */}
-        <p className="mb-6 text-2xl"style={{color: "#000000"}}>
+        <p className="mb-6 text-2xl"style={{color: "#000000" }}>
           AI is accelerating change across every operational layer. Roles are
           shifting. Leadership models are collapsing and reforming. Frontline
           and mid-level managers will soon lead teams of people and intelligent
@@ -15,7 +16,9 @@ export default function HeroContent() {
         </p>
 
         <p className=" mb-10 text-2xl"  style={{
-            color: "#000000"
+            color: "#000000",
+            fontFamily: "Satoshi Variable",
+              fontStyle: "normal"
         }}>
           But even the most advanced enterprises are asking the same question:
 
@@ -24,8 +27,10 @@ export default function HeroContent() {
 
         {/* Bold Question */}
         <h3 className=" mb-10 text-4xl font-extrabold" style={{
+          fontFamily: "Satoshi Variable",
+              fontStyle: "normal",
             color: "#000000",
-            textAlign: "center",
+            textAlign: "center"
         }}>
           Which capabilities will matter most,
           <br />
@@ -34,7 +39,10 @@ export default function HeroContent() {
 
         {/* Closing */}
         <p className="mb-10 text-2xl" style={{
+          fontFamily: "Satoshi Variable",
+              fontStyle: "normal",
             color: "#000000",
+
         }} >
           This invite-only roundtable gathers CHROs, CLOs, and enterprise
           workforce leaders for a candid, senior-level discussion on what’s
