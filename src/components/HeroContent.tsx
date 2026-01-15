@@ -5,7 +5,7 @@ export default function HeroContent() {
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Email Form */}
-        <RsvpForm className=" lex flex-col sm:flex-row gap-4 mb-10 max-w-2xl" />
+        <RsvpForm className="flex flex-col sm:flex-row gap-4 mb-10 max-w-2xl" />
         {/* Paragraphs */}
         <p className="mb-6 text-2xl"style={{color: "#000000"}}>
           AI is accelerating change across every operational layer. Roles are
