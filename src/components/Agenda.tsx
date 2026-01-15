@@ -6,7 +6,7 @@ export default function Agenda() {
         style={{ fontStyle: "Normal", backgroundColor: "#00FFFF" }}
       >
         {/* Section Title */}
-        <h2 className="text-3xl font-bold mb-12" style={{ color: "#1D4DF4", fontFamily: "Satoshi Variable", fontStyle: "normal" }}>
+        <h2 className="font-sans text-3xl font-bold mb-12" style={{ color: "#1D4DF4", fontFamily: "Satoshi Variable", fontStyle: "normal" }}>
           Event Agenda
         </h2>
 
