@@ -15,6 +15,7 @@ export default function Footer() {
 
       <div className="relative max-w-7xl mx-auto px-6 py-20">
         {/* Top content */}
+          <p className="text-xl font-semibold mb-4" style={{paddingLeft: "18px"}} >Space is limited.</p>
 
         {/* RSVP Form */}
 <RsvpForm
