@@ -1,6 +1,18 @@
 import Image from "next/image";
 import { rsvp } from "../app/actions/rsvp";
 import RsvpForm from "./Rsvp";
+/**
+ * Insights component that displays information about leadership and workforce capabilities.
+ * 
+ * Renders a two-column layout with:
+ * - Left side: Heading, description text, and a bulleted list of key insights
+ * - Right side: A chess strategy image
+ * 
+ * The layout is responsive, stacking on mobile and displaying side-by-side on medium screens and up.
+ * Includes an embedded RSVP form for user engagement.
+ * 
+ * @returns {JSX.Element} A section containing the insights content and imagery
+ */
 export default function Insights() {
   return (
     <section className="bg-white py-20">

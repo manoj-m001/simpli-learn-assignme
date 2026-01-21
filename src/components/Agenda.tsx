@@ -1,3 +1,20 @@
+/**
+ * Agenda component that displays event schedule and session information.
+ * 
+ * Renders a cyan-colored section containing the event agenda with three main cards:
+ * - Welcome & Opening session by Sudipto Mitra (CRO Simplilearn)
+ * - Keynote address by Rob Lauber (Former CLO McDonald's)
+ * - Lunch & Executive Conversation with industry experts
+ * 
+ * Each card displays the session title, speaker/attendee information, and description.
+ * The layout is responsive with a single column on mobile and three columns on medium+ screens.
+ * 
+ * @component
+ * @returns {JSX.Element} A section element containing the agenda cards with styling
+ * 
+ * @example
+ * <Agenda />
+ */
 export default function Agenda() {
   return (
     <section className="bg-[#00FFFF] py-20">

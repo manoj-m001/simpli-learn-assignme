@@ -1,5 +1,18 @@
 import Image from "next/image";
 import RsvpForm from "./Rsvp";
+/**
+ * Footer component that displays the application footer with branding and RSVP form.
+ * 
+ * Features a full-width footer with a background image overlay, containing:
+ * - A prominent "Space is limited." heading
+ * - An RSVP form for user submissions
+ * - Logo and copyright information
+ * 
+ * The component uses a semi-transparent dark overlay over the background image
+ * and is fully responsive with mobile-first design considerations.
+ * 
+ * @returns {JSX.Element} A footer element with nested content sections
+ */
 export default function Footer() {
   return (
     <footer
