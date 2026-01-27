@@ -123,10 +123,12 @@ Server-Side Rendering: Next.js App Router with Server Actions
 🚀 Deployment
 Deploy to Vercel
 # Install Vercel CLI (optional)
+```bash
 npm install -g vercel
 
 # Deploy
 vercel
+```
 Steps:
 
 Push your code to GitHub
