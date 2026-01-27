@@ -78,9 +78,61 @@ src
 
 ```bash
 # Install dependencies
-npm install
+npm install# Start development server
+
+npm run dev# Build the project
+
+# Build the project
+npm run build
+
+# Start production server
+npm start
 ```
 
+Open http://localhost:3000 in your browser to view the site.
+ Available Scripts
+npm run dev - Start development server with hot module reloading
+npm run build - Create production build
+npm start - Run production server
+npm run lint - Run ESLint
+
+🔑 Environment Variables
+
+Create a .env.local file in the root directory:
 AIRTABLE_API_KEY=your_airtable_api_key
 AIRTABLE_BASE_ID=your_base_id
 AIRTABLE_TABLE_NAME=attendee
+Airtable Table Schema
+
+The attendee table should have these fields:
+
+Email (Email field) - Required
+Name (Text)
+Company (Text)
+Job Title (Text)
+Notes (Long text)
+Source (Text)
+User-Agent (Text)
+
+🎨 Key Features
+
+Responsive Design: Mobile-first approach with Tailwind CSS
+RSVP Integration: Multiple RSVP forms throughout the page connected to Airtable
+Server-Side Rendering: Next.js App Router with Server Actions
+
+🚀 Deployment
+Deploy to Vercel
+# Install Vercel CLI (optional)
+npm install -g vercel
+
+# Deploy
+vercel
+Steps:
+
+Push your code to GitHub
+Connect repository to Vercel
+Set environment variables in Vercel dashboard:
+AIRTABLE_API_KEY
+AIRTABLE_BASE_ID
+AIRTABLE_TABLE_NAME
+Deploy
